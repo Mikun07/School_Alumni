@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    font-family: Bai Jamjuree;
+    font-family: lato;
   }
 
   *,
@@ -49,6 +49,12 @@
   h6 {
     overflow-wrap: break-word;
   }
+}
+
+.gradientText {
+  background-image: linear-gradient(to right, #4EBF00, #26750c);
+  background-clip: text;
+  color: transparent;
 }
 
 .custom__scrollbar::-webkit-scrollbar {

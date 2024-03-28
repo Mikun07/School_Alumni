@@ -1,13 +1,14 @@
 import React from "react";
 import CirclePattern from "../../assets/svg/CirclePattern";
 import RectanglePattern from "../../assets/svg/RectanglePattern";
+import DSC_4962 from "../../assets/img/DSC_4962.jpg"
 
 const HomePage = () => {
   return (
     <>
       <div
         name="home"
-        className="w-full h-screen items-center flex lg:px-8 px-4 relative overflow-hidden"
+        className="w-full lg:h-screen items-center flex lg:px-8 px-4 relative"
       >
         <div className="absolute top-24 lg:left-8 left-4">
           <CirclePattern width="100" height="250" opacity="0.1" />
@@ -16,8 +17,8 @@ const HomePage = () => {
           <RectanglePattern width="180" height="180" />
         </div>
 
-        <div className="w-full z-20 lg:flex lg:flex-row flex-col justify-between">
-          <div className=" lg:w-[50%] w-full flex flex-col gap-3">
+        <div className="w-full lg:mt-0 mt-[100px] md:mt-[200px] sm:mt-0 z-20 flex lg:flex-row flex-col justify-between">
+          <div className="lg:w-[50%] w-full flex justify-center flex-col gap-3">
             <h1 className="gradientText capitalize font-bold text-[25px] w-full leading-8 tracking-wide">
               Federal Government College Odogbolu, '99
             </h1>
@@ -38,6 +39,9 @@ const HomePage = () => {
             </div>
           </div>
           {/* <div>image</div> */}
+          <div className="lg:w-[40%] w-full flex flex-col gap-3 lg:mt-0 mt-8">
+            <img src={DSC_4962} className="border-4 lg:rounded-full" alt="" />
+          </div>
         </div>
         
       </div>

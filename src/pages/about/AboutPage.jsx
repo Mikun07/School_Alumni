@@ -13,7 +13,7 @@ const AboutPage = () => {
     <>
       <div
         name="about"
-        className="w-full lg:h-screen items-center flex lg:px-8 px-4 relative"
+        className="w-full lg:h-screen items-center flex lg:px-8 px-4 relative mt-20"
       >
         <div className="w-full lg:mt-0 mt-[100px] md:mt-[200px] sm:mt-0 z-20 lg:flex lg:flex-row flex-col justify-between gap-4">
           <div className="grid grid-cols-2 gap-3 ">

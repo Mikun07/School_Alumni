@@ -66,7 +66,7 @@ const AboutPage = () => {
               Federal Government College Odogbolu, '99
             </h1>
 
-            <div className="text-justify text-sm text-gray-600 pt-4">
+            <div className="text-justify text-sm text-gray-600 pt-2">
               <p>
                 Established in [Year], Federal Government College Odogbolu has
                 been a beacon of academic excellence and personal growth. Our
@@ -84,8 +84,8 @@ const AboutPage = () => {
               </p>
               <br />
               <p className="px-2">
-                <b>Our Values</b>
-                <ul className="list-disc list-inside gap-2 flex flex-col">
+                <b className="text-md">Our Values</b>
+                <ul className="list-disc list-inside">
                   <li>
                     <b>Community:</b>
                     We believe in the strength of our network and aim to create
@@ -104,7 +104,7 @@ const AboutPage = () => {
               </p>
               <br />
               <p className="">
-                reflecting the values we learned at FGC Odogbolu. Get Involved
+                Reflecting the values we learned at FGC Odogbolu. Get Involved
                 We invite all alumni to join us in our mission. Whether you are
                 looking to reconnect with old friends, mentor current students,
                 or contribute to community projects, there are many ways to get

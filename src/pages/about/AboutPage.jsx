@@ -60,12 +60,12 @@ const AboutPage = () => {
               />
             </div>
           </div>
-          <div className=" lg:w-[50%] w-full border-4 flex flex-col gap-3 items-center">
+          <div className=" lg:w-[50%] w-full flex flex-col gap-3 items-center">
             <h1 className="gradientText capitalize font-bold text-[25px] w-full leading-8 tracking-wide text-center">
               Federal Government College Odogbolu, '99
             </h1>
 
-            <p>
+            <p className="text-justify text-xs text-gray-600">
               Established in [Year], Federal Government College Odogbolu has
               been a beacon of academic excellence and personal growth. Our
               alumni community, formed by the graduating class of 1999, proudly
@@ -79,18 +79,20 @@ const AboutPage = () => {
               legacy of Federal Government College Odogbolu, empowering future
               generations through mentorship, collaboration, and philanthropic
               initiatives. Our Values
-              <ul>
+              <ul className="list-disc list-inside ">
                 <li>
-                  Community: We believe in the strength of our network and aim
-                  to create a supportive environment for all members.
+                  <b>Community:</b>
+                  We believe in the strength of our network and aim to create a
+                  supportive environment for all members.
                 </li>
                 <li>
+                  <b>Integrity:</b>
                   Integrity: We uphold the highest ethical standards in our
                   actions and interactions.
                 </li>
                 <li>
-                  {" "}
-                  Excellence: We strive for excellence in all our endeavors,
+                  <b>Excellence:</b> We strive for excellence in all our
+                  endeavors,
                 </li>
               </ul>
               reflecting the values we learned at FGC Odogbolu. Get Involved We

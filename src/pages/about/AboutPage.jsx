@@ -85,7 +85,7 @@ const AboutPage = () => {
               <br />
               <p className="px-2">
                 <b>Our Values</b>
-                <ul className="list-disc list-inside ">
+                <ul className="list-disc list-inside gap-2 flex flex-col">
                   <li>
                     <b>Community:</b>
                     We believe in the strength of our network and aim to create

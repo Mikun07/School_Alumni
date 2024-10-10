@@ -17,42 +17,42 @@ const AboutPage = () => {
       >
         <div className="w-full lg:mt-0 mt-[100px] md:mt-[200px] sm:mt-0 z-20 lg:flex lg:flex-row flex-col justify-between gap-4">
           <div className="grid grid-cols-2 gap-3 ">
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4944}
                 alt=""
                 className="rounded-lg lg:h-[150px] object-cover"
               />
             </div>
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4773}
                 alt=""
                 className="rounded-lg lg:h-[150px] object-cover"
               />
             </div>
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4931}
                 alt=""
                 className="rounded-lg lg:h-[150px] object-cover"
               />
             </div>
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4917}
                 alt=""
                 className="rounded-lg lg:h-[150px] object-cover"
               />
             </div>
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4948}
                 alt=""
                 className="rounded-lg lg:h-[150px] object-cover"
               />
             </div>
-            <div className="border-4 rounded-lg h-full">
+            <div className="rounded-lg h-full">
               <img
                 src={DSC_4964}
                 alt=""
